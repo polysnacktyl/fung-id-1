@@ -25,7 +25,6 @@ This application allows users to add, annotate, view, and utilize photographs of
 4. ```node server.js``` to spin up the server. 
 5. ```seeds/index.js``` to seed.
 
-
 ## Using the Deployed Application
 1. Visit the [login](https://fung-i-d-ployed.herokuapp.com/login) page to log in or sign up.
 2. Navigate to the upload page. 
@@ -35,6 +34,15 @@ This application allows users to add, annotate, view, and utilize photographs of
 6. Navigate to [Mush-room](https://fung-i-d-ployed.herokuapp.com/mush-room) to view a thumbnail gallery of your colleciton of images. 
 7. Click any thumbnail to view a full-size image, notes entered on the upload step, and a map with geolocation data so you can always remember where you found this mushroom. 
 8. Click ```logout``` to end your session. 
+
+
+landing page | login
+------------ | ------------- 
+![image](https://raw.githubusercontent.com/polysnacktyl/fung-id-1/main/public/assets/images/1-landing.png) |![image](https://raw.githubusercontent.com/polysnacktyl/fung-id-1/main/public/assets/images/2-login.png)
+
+upload | detail view
+------------ | ------------- 
+![image](https://raw.githubusercontent.com/polysnacktyl/fung-id-1/main/public/assets/images/3-upload.png) |![image](https://raw.githubusercontent.com/polysnacktyl/fung-id-1/main/public/assets/images/5-detail.png)
 
 ## Credits
 Image functionality made possible by [Cloudinary](https://cloudinary.com/documentation/image_upload_api_reference)'s image hosting and upload widget resources. 
